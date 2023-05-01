@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perla Jewels</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Cormorant+Garamond:ital@1&family=Cormorant+Unicase:wght@300;400;500&family=Great+Vibes&family=Nunito:ital,wght@0,200;0,300;0,400;1,200&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!--Navigation-->
+    <header class="home">
+      <nav class="logo-flex container-wrap">
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Perla</label>
+        <ul class="bar-icons">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#"><i class="fa fa-search"></i></a>
+          </li>
+          <li>
+            <a href="cart.html" target="_blank"><i class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+
+        
+      </nav>
+      <!--end logo-flex-->
+
+      <div class="description wrapper container-wrap">
+        <div class="description-one">
+          <h1>
+            SPARKLE <br />
+            WITH STYLE
+          </h1>
+          <p>
+            Discover our exquisite collection of elegant jewellery. From elegant
+            necklaces to stunning bracelets, find your new favorite piece today.
+          </p>
+        </div>
+
+        <div class="img-wrap">
+          <img src="images/img20.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!--End Navigtion-->
+
+    <!--section one-->
+  
+    <section class="about about-sect container-wrap">
+      <div class="image">
+        <div class="border">
+          <img src="images/Tumblr.png" alt="" />
+        </div>
+      </div>
+
+      <div class="text">
+        <h1 class="title">It's All In Details</h1>
+        <p>
+          Adorn yourself with timeless elegance and unmatched sparkle. Explore
+          our stunning collection of exquisite jewelry, crafted to perfection
+          for every occasion.
+        </p>
+      </div>
+    </section>
+
+
+    <div class="line"></div>
+
+    <!--section two-->
+    <section class="product container-wrap">
+        <h1 class="product-category">
+            Our Selection of <br> Jewellry</h1>
+        </h1>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+     <div class="product-container">
+      <div class="product-card">
+        <div class="product-image">
+        <span class="discount-tag">50% off</span>
+        <img src="images/pearl earring.jpg" class="product-thumb" alt="">
+        <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+      </div>
+      <div class="product-info">
+        <p class="product-description">Pearl earring</p>
+        <span class="price">$700</span>
+        <span class="actual-price">$1400</span>
+      </div>
+      </div>
+
+    <div class="product-card">
+      <div class="product-image">
+      <span class="discount-tag">50% off</span>
+      <img src="images/img10.png" class="product-thumb" alt="">
+      <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+    </div>
+    <div class="product-info">
+      <p class="product-description">Seashell Earrings</p>
+      <span class="price">$500</span>
+      <span class="actual-price">$1000</span>
+    </div>
+  </div>
+  <div class="product-card">
+    <div class="product-image">
+    <span class="discount-tag">50% off</span>
+    <img src="images/bangles 1.jpg" class="product-thumb" alt="">
+    <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+  </div>
+  <div class="product-info">
+    <p class="product-description">Gold Bangles</p>
+    <span class="price">$900</span>
+    <span class="actual-price">$1800</span>
+  </div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/gold chains.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Gold Neckchains</p>
+  <span class="price">$1500</span>
+  <span class="actual-price">$3000</span>
+</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/Coin necklace.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Coin Necklace</p>
+  <span class="price">$300</span>
+  <span class="actual-price">$600</span>
+</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/diamond-rings.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Diamond Rings</p>
+  <span class="price">$3500</span>
+  <span class="actual-price">$7000</span>
+</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/ankle chain.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Ankle Chains</p>
+  <span class="price">$500</span>
+  <span class="actual-price">$1000</span>
+</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/gold knot earring.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()"class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Gold knotted Earrings</p>
+  <span class="price">$2000</span>
+  <span class="actual-price">$4000</span>
+</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/stud earrings.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Stud Earrings</p>
+  <span class="price">$600</span>
+  <span class="actual-price">$1200</span>
+</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/Crossaint hoops.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Crossaint Hoops</p>
+  <span class="price">$800</span>
+  <span class="actual-price">$1600</span>
+</div>
+</div>
+
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/Rhinestone Leaf Drop Earrings.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Rhinestone Leaf Earrings</p>
+  <span class="price">$1500</span>
+  <span class="actual-price">$3000</span>
+</div>
+</div>
+
+<div class="product-card">
+  <div class="product-image">
+  <span class="discount-tag">50% off</span>
+  <img src="images/pearl choker.jpg" class="product-thumb" alt="">
+  <button onclick="cardBtn()" class="card-btn">Add to cart</button>
+</div>
+<div class="product-info">
+  <p class="product-description">Pearl Choker</p>
+  <span class="price">$3200</span>
+  <span class="actual-price">$6400</span>
+</div>
+</div>
+
+<div class="view-more">
+  <a class="product-link" href="product.html">More</a>
+</div>
+
+    </section>
+
+        
+    <!--section three-->
+
+    <section class="container-wrap">
+    <h1 id="gallery" class="title">Gallery Of Jewellry</h1>
+    <section class="gallery">
+        <div class="box zoom"></div>
+        <div class="box zoom"></div>
+        <div class="box zoom"></div>
+        <div class="box zoom"></div>
+        <div class="box zoom"></div>
+        <div class="box zoom"></div>
+    </section>
+</section>
+
+    <!--footer-->
+    <footer id="contact">
+      <div class="container-wrap footer">
+        <label class="footer-logo">Perla</label>
+        <div class="contact">
+            <h3>+2349067359156</h3>
+            <p>Marian, Calabar</p>
+        </div>
+      <ul class="footer-icons">
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+      </ul>
+      </div>
+       
+      
+    </footer>
+    <script src="script.js  "></script>
+  </body>
+</html>
